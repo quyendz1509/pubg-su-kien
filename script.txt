@@ -1,5 +1,5 @@
 (function() {
-    console.log("%c[GODMODE] Đang thiết lập bộ lọc đánh chặn hệ thống...", "color: #3b82f6; font-weight: bold;");
+    console.log("%c[GODMODE] Đang thiết lập...Không mở Mini Game....", "color: #3b82f6; font-weight: bold;");
 
     // Lưu trữ các hàm đã bind để truy ngược context
     const boundTargets = new WeakMap();
@@ -64,5 +64,5 @@
     // Kiểm tra liên tục để kích hoạt ngay khi player xuất hiện
     setInterval(applyHack, 500);
 
-    console.log("%c[GODMODE] BỘ LỌC ĐÃ SẴN SÀNG! Vui lòng làm theo hướng dẫn bên dưới 👇", "color: #f59e0b; font-weight: bold;");
+    console.log("%c[GODMODE] BỘ LỌC ĐÃ SẴN SÀNG! Vui lòng khởi động MiniGame..", "color: #f59e0b; font-weight: bold;");
 })();
